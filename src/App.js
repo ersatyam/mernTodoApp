@@ -8,7 +8,7 @@ import logo from "./logo.svg";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={'mernTodoApp'}>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="/todos" target="_blank">
